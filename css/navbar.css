@@ -1,0 +1,19 @@
+nav {
+    padding: var(--section-padding);
+    padding-block: 1.5rem;
+    color: var(--red);
+  }
+  
+  #nav-menu {
+    gap: 2rem;
+    margin: 0;
+    font-size: 1.05rem;
+  }
+  
+  #nav-menu a {
+    color: var(--red);
+  }
+
+  .nav-menu-grey a:not(.btn) {
+    color: var(--dark-grey) !important;
+  }

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.3.0/css/flat-ui.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link type="text/css" rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="
+https://cdn.jsdelivr.net/npm/iobroker.icons-icons8@0.0.1/Gruntfile.min.js
+"></script>
+    <link type="text/css" rel="stylesheet" href="../css/footer.css" />
+    <link type="text/css" rel="stylesheet" href="../css/navbar.css" />
+    <link type="text/css" rel="stylesheet" href="../css/signup.css" />
+    <link type="text/css" rel="stylesheet" href="../css/form.css" />
+  </head>
+  <body>
+    <nav id="navbar" class="flex">
+      <div>
+        <h5 class="accent">Logo</h5>
+      </div>
+      <ul id="nav-menu" class="flex nav-menu-grey">
+        <li><a href="#">How we help</a></li>
+        <li><a href="#">Colleges</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Study Loan</a></li>
+        <li><a href="#">Scholarship</a></li>
+        <li><a id="signin-btn" class="btn" href="#">Sign in</a></li>
+      </ul>
+    </nav>
+    <section id="hero-section" class="grid grid-cols-5">
+      <div class="col-span-3">
+        <img id="hero-img" src="../images/hero.png"/>
+      </div>
+      <div class="flex-col col-span-2 form-wrapper">
+        <h4 class="">Create a new account</h4>
+        <div id="auth" class="flex flex-start">
+            <button class="btn flex gap-2 social-btn google-btn"><i class="fab fa-google"></i> Sign up with Google</button>
+            <button class="btn social-btn fb-btn"><i class="fab fa-facebook-f"></i></button>
+        </div>
+        <div id="or" class="flex"><hr/> <span>or sign up with email</span> <hr/></div> 
+        <form>
+            <div class="grid grid-cols-2 gap-1">
+                <input class="input-div" type="text" name="fName" placeholder="First Name" />
+                <input class="input-div" type="text" name="lName" placeholder="Last Name" />
+                <input class="input-div" type="email" name="email" placeholder="Email" />
+                <input class="input-div" type="password" name="password" placeholder="Password" />
+                <select class="input-div" name="city">
+                    <option value="city">City</option>
+                    <option value="city">City</option>
+                    <option value="city">City</option>
+                    <option value="city">City</option>
+                </select>
+                <div class="flex input-div-wrapper flex-start">
+                    <select class="country">
+                        <option value="country">IN</option>
+                        <option value="country">IN</option>
+                        <option value="country">IN</option>
+                    </select>
+                    <input class="input-div" type="tel" placeholder="Mobile"/>
+                </div>
+            </div>
+            <p class="tnc">By clicking below, you agree to our <strong>terms and conditions</strong> and our <strong>privacy policy</strong>.</p>
+            <button type="submit" class="btn form-btn center">Sign up</button>
+        </form>
+        <span class="text-center">Already have an account? <a class="accent" href="./index.html">Sign in</a></span>
+    </div>
+    </section>
+  </body>
+</html>

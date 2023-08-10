@@ -1,0 +1,27 @@
+
+footer {
+    padding: 1rem 2rem;
+    background-color: var(--red);
+    color: white;
+}
+
+nav, footer {
+    margin: 0;
+}
+
+footer li {
+    font-size: 1.1rem;
+}
+
+#footer-description {
+    color: #FFFFFF;
+    font-size: 1rem;
+    line-height: 24px;
+    width: 407px;
+    text-align: left;
+}
+
+footer hr {
+    border: 1px solid white;
+    margin: 1rem 0;
+}
